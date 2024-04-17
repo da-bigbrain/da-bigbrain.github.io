@@ -24,8 +24,8 @@ const rubik = Raleway_Dots({
 });
 
 export const metadata: Metadata = {
-  title: "Enkhbold Ganbold's Portfolio",
-  description: "Enkhbold Ganbold's portfolio website.",
+  title: "BigBrain Club | De Anza College",
+  description: "BigBrain Club | De Anza College",
 };
 
 export default function RootLayout({
@@ -40,13 +40,17 @@ export default function RootLayout({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-7VGWM7JV28" />
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-XR4FE2XFN6"
+      />
       <Script id="google-analytics">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-7VGWM7JV28');
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+     
+       gtag('config', 'G-XR4FE2XFN6');
         `}
       </Script>
       {/* <body className={GeistSans.className}> */}
