@@ -4,9 +4,9 @@ export default function Contact() {
   return (
     <div
       id="join"
-      className="flex flex-col items-center justify-center py-6 lg:h-[20rem]"
+      className="flex flex-col items-center justify-center py-10 my-10 lg:h-[20rem]"
     >
-      <div className="justify-center text-3xl py-4 font-semibold capitalize">
+      <div className="justify-center text-3xl py-10 font-semibold capitalize">
         Join Discord & Let&apos;s talk!
       </div>
       <div className="animate-bounce">
@@ -18,6 +18,12 @@ export default function Contact() {
           https://discord.gg/BCPDcsHD4d
         </Link>
       </div>
+      <h1 className="text-xl py-10 lg:w-[50%] my-10 px-10 mx-10 text-center">
+        We are the Neuroscience Club at De Anza College, conducting research on
+        electroencephalograms (EEG) to enhance accessibility for disabled
+        individuals, such as driving a car using brain waves, among other
+        applications.
+      </h1>
       <div>
         {/* <div className="text-body-color dark:text-dark-6 hover:border-gray-900 hover:bg-gray-300 inline-block rounded-full border-2 dark:border-dark-3 py-[10px] px-7 text-xl font-medium transition hover:text-gray-900 mt-5">
           <Link href={"/resume"} target="_blank">

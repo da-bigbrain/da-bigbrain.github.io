@@ -79,6 +79,7 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 export default function HorScroll() {
   return (
     <section>
+      <div className="my-10"></div>
       <ParallaxText baseVelocity={-3}>
         We're making the world better place
       </ParallaxText>

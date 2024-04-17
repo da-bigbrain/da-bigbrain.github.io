@@ -108,7 +108,7 @@ export default function Hero() {
                 animate={inView ? { x: 0, opacity: 1 } : {}}
                 // transition={{ duration: 0.5 }}
               >
-                <div className="">
+                <div className="select-none">
                   <Image src="./hero.png" width={700} height={300} alt="Hero" />
                 </div>
               </motion.div>
@@ -122,15 +122,15 @@ export default function Hero() {
                 animate={inView ? { x: 0, opacity: 1 } : {}}
                 // transition={{ duration: 0.5 }}
               >
-                <div className="flex flex-col md:mr-10 sm:mr-10 w-min">
+                <div className="flex flex-col md:mr-10 sm:mr-10 w-min my-10">
                   <div className="text-xs lg:text-3xl md:text-2xl sm:text-xs">
-                    Welcome to
+                    Welcome to our website
                   </div>
                   <div className="text-6xl lg:text-9xl md:text-7xl sm:text-5xl">
                     <motion.h1 className={font}>Big Brain</motion.h1>
                   </div>
                   <div className="flex text-xs lg:text-3xl md:text-2xl sm:text-xs justify-end">
-                    De Anza Club's Website
+                    Club at De Anza College
                   </div>
                 </div>
               </motion.div>
