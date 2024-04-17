@@ -137,12 +137,12 @@ export default function Hero() {
             )}
           </InView>
         </div>
-        {/* <motion.div
+        <motion.div
           initial={{ y: 100, opacity: 0, scale: 0.1 }}
           animate={{ y: 0, opacity: 1, scale: 1 }}
           transition={{ duration: 0.2 }}
         >
-          <div className="flex flex-col items-center max-sm:h-20 mt-10">
+          <div className="flex flex-col items-center max-sm:h-20 mt-10 max-md:hidden">
             <svg
               width="59"
               height="94"
@@ -169,7 +169,7 @@ export default function Hero() {
             </svg>
             <h1 className="uppercase text-base">scroll</h1>
           </div>
-        </motion.div> */}
+        </motion.div>
       </section>
     </>
   );

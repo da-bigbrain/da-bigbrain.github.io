@@ -12,7 +12,7 @@ export default function Socials() {
   /*by the way here are some social links, in case you don't know */
   return (
     <>
-      <div className="flex flex-col justify-center items-center lg:h-[30rem] gap-5">
+      <div className="flex flex-col justify-center items-center lg:h-[30rem] gap-5 my-5 py-3">
         <h1 className="text-4xl font-bold text-center">Socials</h1>
         <div className="flex border-2 gap-2 p-10 rounded-2xl bg-soft-white">
           <div className="flex flex-col gap-2">

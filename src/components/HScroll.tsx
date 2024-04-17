@@ -84,7 +84,7 @@ export default function HorScroll() {
         We're making the world better place
       </ParallaxText>
       <ParallaxText baseVelocity={3}>
-        We're making the world better place
+        through accessibility for all
       </ParallaxText>
     </section>
   );

@@ -7,18 +7,18 @@ export default function Contact() {
       className="flex flex-col items-center justify-center py-10 my-10 lg:h-[20rem]"
     >
       <div className="justify-center text-3xl py-10 font-semibold capitalize">
-        Join Discord & Let&apos;s talk!
+        Join Discord!
       </div>
       <div className="animate-bounce">
         <Link
           href="https://discord.gg/BCPDcsHD4d"
           target="_blank"
-          className="text-blue-500 text-2xl"
+          className="text-blue-500 text-xl lg:text-2xl"
         >
           https://discord.gg/BCPDcsHD4d
         </Link>
       </div>
-      <h1 className="text-xl py-10 lg:w-[50%] my-10 px-10 mx-10 text-center">
+      <h1 className="text-xl py-5 lg:w-[50%] my-5 px-10 mx-5 text-center">
         We are the Neuroscience Club at De Anza College, conducting research on
         electroencephalograms (EEG) to enhance accessibility for disabled
         individuals, such as driving a car using brain waves, among other
