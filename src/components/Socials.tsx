@@ -66,7 +66,7 @@ export default function Socials() {
               /aab04e7d2522
             </Link> */}
             <Link
-              href={"https://www.instagram.com/deanzacollege/"}
+              href={"https://www.instagram.com/deanzabigbrian/"}
               className="text-blue-400"
               target="_blank"
             >
