@@ -5,6 +5,7 @@ import {
   faFacebook,
   faYoutube,
   faGithub,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 
@@ -21,16 +22,17 @@ export default function Socials() {
               size="2xl"
               style={{ color: "#000000" }}
             />
-            {/* <FontAwesomeIcon
+            {/* {/* <FontAwesomeIcon
               icon={faLinkedin}
               size="2xl"
               style={{ color: "#0070df" }}
             />
+  */}
             <FontAwesomeIcon
-              icon={faFacebook}
+              icon={faDiscord}
               size="2xl"
               style={{ color: "#0070df" }}
-            /> */}
+            />
             <FontAwesomeIcon
               icon={faInstagram}
               size="2xl"
@@ -58,13 +60,13 @@ export default function Socials() {
               /enkhbold-g-b09a58142
             </Link> */}
 
-            {/* <Link
-              href={"https://www.facebook.com/aab04e7d2522"}
+            <Link
+              href={"https://discord.gg/k7EUmkGpK"}
               className="text-blue-400"
               target="_blank"
             >
-              /aab04e7d2522
-            </Link> */}
+              /bigbrain-discord
+            </Link>
             <Link
               href={"https://www.instagram.com/deanzabigbrian/"}
               className="text-blue-400"
