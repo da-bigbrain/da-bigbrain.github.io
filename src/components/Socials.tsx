@@ -61,7 +61,7 @@ export default function Socials() {
             </Link> */}
 
             <Link
-              href={"https://discord.gg/k7EUmkGpK"}
+              href={"https://discord.gg/r4KsKrGzdT"}
               className="text-blue-400"
               target="_blank"
             >
