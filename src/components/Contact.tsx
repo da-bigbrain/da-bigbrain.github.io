@@ -20,10 +20,14 @@ export default function Contact() {
       </div> */}
       <div className="text-body-color dark:text-dark-6 hover:border-gray-900 hover:bg-gray-300 inline-block rounded-full border-2 dark:border-dark-3 py-[10px] px-7 text-xl font-medium transition hover:text-gray-900 mt-5">
         <Link href={"https://discord.gg/r4KsKrGzdT"} target="_blank">
-          Join
+          Join Discord
         </Link>
       </div>
-
+      <div className="text-body-color dark:text-dark-6 hover:border-gray-900 hover:bg-gray-300 inline-block rounded-full border-2 dark:border-dark-3 py-[10px] px-7 text-xl font-medium transition hover:text-gray-900 mt-5">
+        <Link href={"https://forms.gle/NQhSayK2X331RHjy8"} target="_blank">
+          Sign Up Form
+        </Link>
+      </div>
       <h1 className="text-xl py-5 lg:w-[50%] my-5 px-10 mx-5 text-center">
         We are the Neuroscience Club at De Anza College, conducting research on
         electroencephalograms (EEG) to enhance accessibility for disabled

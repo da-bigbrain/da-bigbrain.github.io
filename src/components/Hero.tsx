@@ -142,6 +142,14 @@ export default function Hero() {
                       Join Our Discord Server
                     </Link>
                   </div>
+                  <div className="text-body-color dark:text-dark-6 hover:border-gray-900 hover:bg-gray-300 inline-block rounded-full border-2 dark:border-dark-3 py-[10px] px-7 text-xl font-medium transition hover:text-gray-900 mt-5 border-2 flex justify-center w-max">
+                    <Link
+                      href={"https://forms.gle/NQhSayK2X331RHjy8"}
+                      target="_blank"
+                    >
+                      Member Sign Up Form
+                    </Link>
+                  </div>
                 </div>
               </motion.div>
             )}
