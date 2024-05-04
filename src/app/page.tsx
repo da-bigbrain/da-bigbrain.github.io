@@ -11,6 +11,7 @@ import Contact from "@/components/Contact";
 import PortfolioCart from "@/components/Projects/PortfolioCart";
 import Socials from "@/components/Socials";
 import DarkToggle from "@/components/DarkToggle";
+import AddToHomeScreenButton from "@/components/AddHome";
 
 let prevScrollPos: number = typeof window !== "undefined" ? window.scrollY : 0;
 
@@ -36,7 +37,7 @@ export default function Home() {
   return (
     <>
       {/* <ResponsiveDebug /> */}
-
+      {/* <AddToHomeScreenButton /> */}
       <Navbar />
       {/* <DarkToggle /> */}
       <Hero />
