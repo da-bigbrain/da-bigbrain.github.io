@@ -44,6 +44,10 @@ export default function RootLayout({
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-XR4FE2XFN6"
       />
+      <Script
+        src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js"
+        async
+      ></Script>
       <Script id="google-analytics">
         {`
        window.dataLayer = window.dataLayer || [];
